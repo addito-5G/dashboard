@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" width="480" height="300">
+  <defs>
+    <filter id="sh4" x="-4%" y="-4%" width="108%" height="112%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="480" height="300" rx="8" fill="#1e120b"/>
+  <rect x="1" y="1" width="478" height="298" rx="7" fill="none" stroke="#3a2518" stroke-width="1"/>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="480" height="32" rx="8" fill="#2a1810"/>
+  <rect x="0" y="16" width="480" height="16" fill="#2a1810"/>
+  <circle cx="16" cy="16" r="5" fill="#d4553a" opacity="0.8"/>
+  <circle cx="32" cy="16" r="5" fill="#e8a849" opacity="0.8"/>
+  <circle cx="48" cy="16" r="5" fill="#5ba37a" opacity="0.8"/>
+  <text x="240" y="20" text-anchor="middle" fill="#c9a87a" font-family="Georgia, serif" font-size="11" font-weight="bold">Dashboard — About / README</text>
+
+  <!-- Tab bar -->
+  <rect x="12" y="38" width="456" height="24" rx="4" fill="#261710"/>
+  <rect x="12" y="38" width="80" height="24" rx="4" fill="#3a2518"/>
+  <text x="52" y="54" text-anchor="middle" fill="#c9a87a" font-family="Helvetica, sans-serif" font-size="9" font-weight="bold">Overview</text>
+  <rect x="92" y="38" width="66" height="24" rx="4" fill="#3a2518" opacity="0.4"/>
+  <text x="125" y="54" text-anchor="middle" fill="#7a6050" font-family="Helvetica, sans-serif" font-size="9">Details</text>
+  <rect x="158" y="38" width="56" height="24" rx="4" fill="#e8a849" opacity="0.15"/>
+  <rect x="158" y="56" width="56" height="6" fill="#261710"/>
+  <rect x="158" y="38" width="56" height="24" rx="4" fill="none" stroke="#e8a849" stroke-width="1" opacity="0.6"/>
+  <text x="186" y="54" text-anchor="middle" fill="#e8a849" font-family="Helvetica, sans-serif" font-size="9" font-weight="bold">About</text>
+  <rect x="214" y="38" width="66" height="24" rx="4" fill="#3a2518" opacity="0.4"/>
+  <text x="247" y="54" text-anchor="middle" fill="#7a6050" font-family="Helvetica, sans-serif" font-size="9">History</text>
+
+  <!-- Main content area -->
+  <rect x="12" y="66" width="456" height="222" rx="6" fill="#261710" filter="url(#sh4)"/>
+  <rect x="12" y="66" width="456" height="222" rx="6" fill="none" stroke="#3a2518" stroke-width="0.5"/>
+
+  <!-- Section: Purpose -->
+  <rect x="24" y="78" width="6" height="16" rx="2" fill="#e8a849"/>
+  <text x="38" y="91" fill="#e8d5b5" font-family="Georgia, serif" font-size="12" font-weight="bold">Purpose</text>
+  <text x="24" y="108" fill="#a08a70" font-family="Helvetica, sans-serif" font-size="9">This dashboard tracks weekly conversion metrics for the Growth team.</text>
+  <text x="24" y="122" fill="#a08a70" font-family="Helvetica, sans-serif" font-size="9">It answers: "Are we converting more signups to paid users this week?"</text>
+
+  <!-- Separator -->
+  <line x1="24" y1="134" x2="456" y2="134" stroke="#3a2518" stroke-width="0.5"/>
+
+  <!-- Section: Owner & Freshness -->
+  <rect x="24" y="142" width="6" height="16" rx="2" fill="#4a8bbf"/>
+  <text x="38" y="155" fill="#e8d5b5" font-family="Georgia, serif" font-size="12" font-weight="bold">Owner &amp; Data Freshness</text>
+
+  <!-- Info cards row -->
+  <rect x="24" y="164" width="130" height="36" rx="4" fill="#1e120b" stroke="#3a2518" stroke-width="0.5"/>
+  <text x="32" y="178" fill="#7a6050" font-family="Helvetica, sans-serif" font-size="7">OWNER</text>
+  <text x="32" y="192" fill="#e8d5b5" font-family="Helvetica, sans-serif" font-size="9" font-weight="bold">@anna.petrova</text>
+
+  <rect x="162" y="164" width="130" height="36" rx="4" fill="#1e120b" stroke="#3a2518" stroke-width="0.5"/>
+  <text x="170" y="178" fill="#7a6050" font-family="Helvetica, sans-serif" font-size="7">DATA REFRESH</text>
+  <rect x="170" y="184" width="8" height="8" rx="4" fill="#5ba37a"/>
+  <text x="182" y="192" fill="#5ba37a" font-family="Helvetica, sans-serif" font-size="9" font-weight="bold">Daily, 06:00 UTC</text>
+
+  <rect x="300" y="164" width="156" height="36" rx="4" fill="#1e120b" stroke="#3a2518" stroke-width="0.5"/>
+  <text x="308" y="178" fill="#7a6050" font-family="Helvetica, sans-serif" font-size="7">LAST UPDATED</text>
+  <text x="308" y="192" fill="#e8d5b5" font-family="Helvetica, sans-serif" font-size="9" font-weight="bold">2 hours ago</text>
+  <text x="390" y="192" fill="#5ba37a" font-family="Menlo, monospace" font-size="8">on schedule</text>
+
+  <!-- Separator -->
+  <line x1="24" y1="208" x2="456" y2="208" stroke="#3a2518" stroke-width="0.5"/>
+
+  <!-- Section: How to read -->
+  <rect x="24" y="216" width="6" height="16" rx="2" fill="#5ba37a"/>
+  <text x="38" y="229" fill="#e8d5b5" font-family="Georgia, serif" font-size="12" font-weight="bold">How to Read This Dashboard</text>
+
+  <!-- Tips -->
+  <circle cx="32" cy="245" r="3" fill="#e8a849" opacity="0.6"/>
+  <text x="42" y="248" fill="#a08a70" font-family="Helvetica, sans-serif" font-size="9">KPI cards show current week vs previous week. Green = improvement.</text>
+
+  <circle cx="32" cy="261" r="3" fill="#e8a849" opacity="0.6"/>
+  <text x="42" y="264" fill="#a08a70" font-family="Helvetica, sans-serif" font-size="9">Conversion funnel excludes test accounts and internal traffic.</text>
+
+  <circle cx="32" cy="277" r="3" fill="#e8a849" opacity="0.6"/>
+  <text x="42" y="280" fill="#a08a70" font-family="Helvetica, sans-serif" font-size="9">Use the Region filter to drill down. Default view = all regions combined.</text>
+</svg>

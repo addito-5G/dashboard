@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" width="480" height="300">
+  <defs>
+    <filter id="shadow1" x="-4%" y="-4%" width="108%" height="112%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+    <linearGradient id="bar1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8a849"/>
+      <stop offset="100%" stop-color="#c17a28"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d4553a"/>
+      <stop offset="100%" stop-color="#a33d2a"/>
+    </linearGradient>
+    <linearGradient id="bar3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5ba37a"/>
+      <stop offset="100%" stop-color="#3d7a56"/>
+    </linearGradient>
+    <linearGradient id="btnGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c17a28"/>
+      <stop offset="100%" stop-color="#e8a849"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="480" height="300" rx="8" fill="#1e120b"/>
+  <rect x="1" y="1" width="478" height="298" rx="7" fill="none" stroke="#3a2518" stroke-width="1"/>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="480" height="32" rx="8" fill="#2a1810"/>
+  <rect x="0" y="16" width="480" height="16" fill="#2a1810"/>
+  <circle cx="16" cy="16" r="5" fill="#d4553a" opacity="0.8"/>
+  <circle cx="32" cy="16" r="5" fill="#e8a849" opacity="0.8"/>
+  <circle cx="48" cy="16" r="5" fill="#5ba37a" opacity="0.8"/>
+  <text x="240" y="20" text-anchor="middle" fill="#c9a87a" font-family="Georgia, serif" font-size="11" font-weight="bold">Theme Editor — Brand Configuration</text>
+
+  <!-- Left panel: palette -->
+  <rect x="12" y="42" width="140" height="246" rx="6" fill="#261710" filter="url(#shadow1)"/>
+  <rect x="12" y="42" width="140" height="246" rx="6" fill="none" stroke="#3a2518" stroke-width="0.5"/>
+
+  <text x="82" y="62" text-anchor="middle" fill="#c9a87a" font-family="Georgia, serif" font-size="10" font-weight="bold" letter-spacing="1">BRAND PALETTE</text>
+  <line x1="28" y1="68" x2="136" y2="68" stroke="#3a2518" stroke-width="0.5"/>
+
+  <!-- Color swatches -->
+  <rect x="24" y="76" width="28" height="28" rx="4" fill="#e8a849"/>
+  <rect x="58" y="76" width="28" height="28" rx="4" fill="#d4553a"/>
+  <rect x="92" y="76" width="28" height="28" rx="4" fill="#5ba37a"/>
+  <rect x="24" y="110" width="28" height="28" rx="4" fill="#4a8bbf"/>
+  <rect x="58" y="110" width="28" height="28" rx="4" fill="#8b6bb5"/>
+  <rect x="92" y="110" width="28" height="28" rx="4" fill="#2a1810" stroke="#5a3d28" stroke-width="1"/>
+
+  <!-- Selected indicator -->
+  <rect x="22" y="74" width="32" height="32" rx="5" fill="none" stroke="#e8a849" stroke-width="2"/>
+
+  <!-- Color codes -->
+  <text x="38" y="152" text-anchor="middle" fill="#7a6050" font-family="Menlo, monospace" font-size="7">#E8A849</text>
+  <text x="72" y="152" text-anchor="middle" fill="#7a6050" font-family="Menlo, monospace" font-size="7">#D4553A</text>
+  <text x="106" y="152" text-anchor="middle" fill="#7a6050" font-family="Menlo, monospace" font-size="7">#5BA37A</text>
+
+  <!-- Typography section -->
+  <text x="82" y="174" text-anchor="middle" fill="#c9a87a" font-family="Georgia, serif" font-size="10" font-weight="bold" letter-spacing="1">TYPOGRAPHY</text>
+  <line x1="28" y1="180" x2="136" y2="180" stroke="#3a2518" stroke-width="0.5"/>
+
+  <text x="28" y="196" fill="#7a6050" font-family="Menlo, monospace" font-size="7">Heading</text>
+  <text x="28" y="210" fill="#e8d5b5" font-family="Georgia, serif" font-size="13" font-weight="bold">Aa Bb Cc</text>
+
+  <text x="28" y="230" fill="#7a6050" font-family="Menlo, monospace" font-size="7">Body</text>
+  <text x="28" y="244" fill="#c9a87a" font-family="Helvetica, sans-serif" font-size="11">Aa Bb Cc 123</text>
+
+  <!-- Apply button -->
+  <rect x="22" y="258" width="120" height="24" rx="4" fill="url(#btnGrad)"/>
+  <text x="82" y="274" text-anchor="middle" fill="#1e120b" font-family="Helvetica, sans-serif" font-size="10" font-weight="bold">Apply Theme</text>
+
+  <!-- Right panel: dashboard preview -->
+  <rect x="164" y="42" width="304" height="246" rx="6" fill="#261710" filter="url(#shadow1)"/>
+  <rect x="164" y="42" width="304" height="246" rx="6" fill="none" stroke="#3a2518" stroke-width="0.5"/>
+
+  <text x="316" y="62" text-anchor="middle" fill="#c9a87a" font-family="Georgia, serif" font-size="10" font-weight="bold" letter-spacing="1">PREVIEW</text>
+  <line x1="176" y1="68" x2="456" y2="68" stroke="#3a2518" stroke-width="0.5"/>
+
+  <!-- KPI cards row -->
+  <rect x="176" y="76" width="88" height="44" rx="4" fill="#1e120b" stroke="#3a2518" stroke-width="0.5"/>
+  <text x="184" y="91" fill="#7a6050" font-family="Helvetica, sans-serif" font-size="7">Revenue</text>
+  <text x="184" y="110" fill="#e8a849" font-family="Georgia, serif" font-size="16" font-weight="bold">$2.4M</text>
+
+  <rect x="272" y="76" width="88" height="44" rx="4" fill="#1e120b" stroke="#3a2518" stroke-width="0.5"/>
+  <text x="280" y="91" fill="#7a6050" font-family="Helvetica, sans-serif" font-size="7">Conversion</text>
+  <text x="280" y="110" fill="#5ba37a" font-family="Georgia, serif" font-size="16" font-weight="bold">3.2%</text>
+
+  <rect x="368" y="76" width="88" height="44" rx="4" fill="#1e120b" stroke="#3a2518" stroke-width="0.5"/>
+  <text x="376" y="91" fill="#7a6050" font-family="Helvetica, sans-serif" font-size="7">DAU</text>
+  <text x="376" y="110" fill="#4a8bbf" font-family="Georgia, serif" font-size="16" font-weight="bold">14.2K</text>
+
+  <!-- Bar chart -->
+  <rect x="176" y="130" width="180" height="110" rx="4" fill="#1e120b" stroke="#3a2518" stroke-width="0.5"/>
+  <text x="184" y="146" fill="#7a6050" font-family="Helvetica, sans-serif" font-size="7">Monthly Revenue</text>
+
+  <!-- Bars -->
+  <rect x="196" y="188" width="16" height="40" rx="2" fill="url(#bar1)" opacity="0.7"/>
+  <rect x="218" y="175" width="16" height="53" rx="2" fill="url(#bar1)" opacity="0.8"/>
+  <rect x="240" y="168" width="16" height="60" rx="2" fill="url(#bar1)" opacity="0.85"/>
+  <rect x="262" y="160" width="16" height="68" rx="2" fill="url(#bar1)" opacity="0.9"/>
+  <rect x="284" y="155" width="16" height="73" rx="2" fill="url(#bar1)"/>
+  <rect x="306" y="158" width="16" height="70" rx="2" fill="url(#bar1)" opacity="0.95"/>
+  <rect x="328" y="164" width="16" height="64" rx="2" fill="url(#bar1)" opacity="0.6"/>
+
+  <!-- X axis labels -->
+  <text x="204" y="236" text-anchor="middle" fill="#5a4030" font-family="Menlo, monospace" font-size="6">Jan</text>
+  <text x="226" y="236" text-anchor="middle" fill="#5a4030" font-family="Menlo, monospace" font-size="6">Feb</text>
+  <text x="248" y="236" text-anchor="middle" fill="#5a4030" font-family="Menlo, monospace" font-size="6">Mar</text>
+  <text x="270" y="236" text-anchor="middle" fill="#5a4030" font-family="Menlo, monospace" font-size="6">Apr</text>
+  <text x="292" y="236" text-anchor="middle" fill="#5a4030" font-family="Menlo, monospace" font-size="6">May</text>
+  <text x="314" y="236" text-anchor="middle" fill="#5a4030" font-family="Menlo, monospace" font-size="6">Jun</text>
+  <text x="336" y="236" text-anchor="middle" fill="#5a4030" font-family="Menlo, monospace" font-size="6">Jul</text>
+
+  <!-- Grid lines -->
+  <line x1="192" y1="228" x2="348" y2="228" stroke="#3a2518" stroke-width="0.5"/>
+
+  <!-- Donut chart area -->
+  <rect x="364" y="130" width="96" height="110" rx="4" fill="#1e120b" stroke="#3a2518" stroke-width="0.5"/>
+  <text x="372" y="146" fill="#7a6050" font-family="Helvetica, sans-serif" font-size="7">By Channel</text>
+
+  <!-- Donut -->
+  <circle cx="412" cy="194" r="30" fill="none" stroke="#e8a849" stroke-width="10" stroke-dasharray="60 128.5" stroke-dashoffset="0"/>
+  <circle cx="412" cy="194" r="30" fill="none" stroke="#d4553a" stroke-width="10" stroke-dasharray="38 150.5" stroke-dashoffset="-60"/>
+  <circle cx="412" cy="194" r="30" fill="none" stroke="#5ba37a" stroke-width="10" stroke-dasharray="50 138.5" stroke-dashoffset="-98"/>
+  <circle cx="412" cy="194" r="30" fill="none" stroke="#4a8bbf" stroke-width="10" stroke-dasharray="40 148.5" stroke-dashoffset="-148"/>
+  <circle cx="412" cy="194" r="18" fill="#1e120b"/>
+
+  <!-- Legend dots -->
+  <circle cx="372" cy="228" r="3" fill="#e8a849"/>
+  <circle cx="392" cy="228" r="3" fill="#d4553a"/>
+  <circle cx="412" cy="228" r="3" fill="#5ba37a"/>
+  <circle cx="432" cy="228" r="3" fill="#4a8bbf"/>
+
+  <!-- Bottom status bar -->
+  <rect x="176" y="248" width="280" height="18" rx="3" fill="#1e120b" stroke="#3a2518" stroke-width="0.5"/>
+  <text x="184" y="260" fill="#5ba37a" font-family="Menlo, monospace" font-size="7">Theme applied: Brand v2.1</text>
+  <text x="440" y="260" text-anchor="end" fill="#5a4030" font-family="Menlo, monospace" font-size="7">Last updated: 2h ago</text>
+</svg>

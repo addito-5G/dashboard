@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" width="480" height="300">
+  <defs>
+    <filter id="sh3" x="-4%" y="-4%" width="108%" height="112%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+    <linearGradient id="kpiGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8a849"/>
+      <stop offset="100%" stop-color="#c17a28"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="480" height="300" rx="8" fill="#1e120b"/>
+  <rect x="1" y="1" width="478" height="298" rx="7" fill="none" stroke="#3a2518" stroke-width="1"/>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="480" height="32" rx="8" fill="#2a1810"/>
+  <rect x="0" y="16" width="480" height="16" fill="#2a1810"/>
+  <circle cx="16" cy="16" r="5" fill="#d4553a" opacity="0.8"/>
+  <circle cx="32" cy="16" r="5" fill="#e8a849" opacity="0.8"/>
+  <circle cx="48" cy="16" r="5" fill="#5ba37a" opacity="0.8"/>
+  <text x="240" y="20" text-anchor="middle" fill="#c9a87a" font-family="Georgia, serif" font-size="11" font-weight="bold">Report Templates — Starter Layouts</text>
+
+  <!-- Template gallery grid -->
+  <!-- Template 1: KPI Overview -->
+  <rect x="16" y="44" width="144" height="118" rx="6" fill="#261710" filter="url(#sh3)"/>
+  <rect x="16" y="44" width="144" height="118" rx="6" fill="none" stroke="#3a2518" stroke-width="0.5"/>
+  <!-- Selected border -->
+  <rect x="14" y="42" width="148" height="122" rx="7" fill="none" stroke="#e8a849" stroke-width="2"/>
+
+  <!-- Mini KPI blocks -->
+  <rect x="24" y="52" width="40" height="20" rx="3" fill="#1e120b" stroke="#3a2518" stroke-width="0.5"/>
+  <rect x="24" y="53" width="40" height="3" rx="1" fill="#e8a849"/>
+  <text x="44" y="68" text-anchor="middle" fill="#e8a849" font-family="Georgia, serif" font-size="8" font-weight="bold">$2.4M</text>
+
+  <rect x="70" y="52" width="40" height="20" rx="3" fill="#1e120b" stroke="#3a2518" stroke-width="0.5"/>
+  <rect x="70" y="53" width="40" height="3" rx="1" fill="#5ba37a"/>
+  <text x="90" y="68" text-anchor="middle" fill="#5ba37a" font-family="Georgia, serif" font-size="8" font-weight="bold">+12%</text>
+
+  <rect x="116" y="52" width="40" height="20" rx="3" fill="#1e120b" stroke="#3a2518" stroke-width="0.5"/>
+  <rect x="116" y="53" width="40" height="3" rx="1" fill="#4a8bbf"/>
+  <text x="136" y="68" text-anchor="middle" fill="#4a8bbf" font-family="Georgia, serif" font-size="8" font-weight="bold">14.2K</text>
+
+  <!-- Mini chart area -->
+  <rect x="24" y="78" width="128" height="44" rx="3" fill="#1e120b" stroke="#3a2518" stroke-width="0.3"/>
+  <!-- Mini line chart -->
+  <polyline points="32,110 48,105 64,98 80,102 96,92 112,88 128,85 144,80" fill="none" stroke="#e8a849" stroke-width="1.5" opacity="0.8"/>
+  <polyline points="32,112 48,110 64,106 80,108 96,100 112,96 128,94 144,90" fill="none" stroke="#5ba37a" stroke-width="1" opacity="0.5" stroke-dasharray="3 2"/>
+
+  <!-- Mini filter bar -->
+  <rect x="24" y="128" width="30" height="12" rx="2" fill="#3a2518"/>
+  <text x="39" y="137" text-anchor="middle" fill="#7a6050" font-family="Helvetica, sans-serif" font-size="6">Date</text>
+  <rect x="58" y="128" width="38" height="12" rx="2" fill="#3a2518"/>
+  <text x="77" y="137" text-anchor="middle" fill="#7a6050" font-family="Helvetica, sans-serif" font-size="6">Region</text>
+  <rect x="100" y="128" width="38" height="12" rx="2" fill="#3a2518"/>
+  <text x="119" y="137" text-anchor="middle" fill="#7a6050" font-family="Helvetica, sans-serif" font-size="6">Product</text>
+
+  <text x="88" y="156" text-anchor="middle" fill="#c9a87a" font-family="Helvetica, sans-serif" font-size="8" font-weight="bold">KPI Overview</text>
+
+  <!-- Template 2: Comparison -->
+  <rect x="168" y="44" width="144" height="118" rx="6" fill="#261710" filter="url(#sh3)"/>
+  <rect x="168" y="44" width="144" height="118" rx="6" fill="none" stroke="#3a2518" stroke-width="0.5"/>
+
+  <!-- Mini grouped bars -->
+  <rect x="176" y="52" width="128" height="80" rx="3" fill="#1e120b" stroke="#3a2518" stroke-width="0.3"/>
+
+  <rect x="190" y="98" width="10" height="28" rx="1" fill="#e8a849" opacity="0.8"/>
+  <rect x="202" y="88" width="10" height="38" rx="1" fill="#4a8bbf" opacity="0.8"/>
+
+  <rect x="222" y="85" width="10" height="41" rx="1" fill="#e8a849" opacity="0.8"/>
+  <rect x="234" y="78" width="10" height="48" rx="1" fill="#4a8bbf" opacity="0.8"/>
+
+  <rect x="254" y="90" width="10" height="36" rx="1" fill="#e8a849" opacity="0.8"/>
+  <rect x="266" y="95" width="10" height="31" rx="1" fill="#4a8bbf" opacity="0.8"/>
+
+  <rect x="286" y="72" width="10" height="54" rx="1" fill="#e8a849" opacity="0.8"/>
+  <rect x="298" y="82" width="10" height="44" rx="1" fill="#4a8bbf" opacity="0.8"/>
+
+  <!-- Legend -->
+  <rect x="188" y="58" width="6" height="6" rx="1" fill="#e8a849"/>
+  <text x="198" y="64" fill="#7a6050" font-family="Helvetica, sans-serif" font-size="6">Plan</text>
+  <rect x="222" y="58" width="6" height="6" rx="1" fill="#4a8bbf"/>
+  <text x="232" y="64" fill="#7a6050" font-family="Helvetica, sans-serif" font-size="6">Actual</text>
+
+  <!-- Mini table area -->
+  <rect x="176" y="136" width="128" height="20" rx="2" fill="#1e120b" stroke="#3a2518" stroke-width="0.3"/>
+  <line x1="220" y1="136" x2="220" y2="156" stroke="#3a2518" stroke-width="0.3"/>
+  <line x1="264" y1="136" x2="264" y2="156" stroke="#3a2518" stroke-width="0.3"/>
+  <text x="198" y="149" text-anchor="middle" fill="#7a6050" font-family="Menlo, monospace" font-size="6">Q1</text>
+  <text x="242" y="149" text-anchor="middle" fill="#7a6050" font-family="Menlo, monospace" font-size="6">Q2</text>
+  <text x="286" y="149" text-anchor="middle" fill="#7a6050" font-family="Menlo, monospace" font-size="6">Q3</text>
+
+  <text x="240" y="156" text-anchor="middle" fill="#c9a87a" font-family="Helvetica, sans-serif" font-size="8" font-weight="bold">Plan vs Actual</text>
+
+  <!-- Template 3: Funnel -->
+  <rect x="320" y="44" width="144" height="118" rx="6" fill="#261710" filter="url(#sh3)"/>
+  <rect x="320" y="44" width="144" height="118" rx="6" fill="none" stroke="#3a2518" stroke-width="0.5"/>
+
+  <!-- Funnel shape -->
+  <rect x="340" y="58" width="104" height="14" rx="2" fill="#e8a849" opacity="0.9"/>
+  <text x="392" y="68" text-anchor="middle" fill="#1e120b" font-family="Helvetica, sans-serif" font-size="7" font-weight="bold">100K visits</text>
+
+  <rect x="352" y="76" width="80" height="14" rx="2" fill="#e8a849" opacity="0.7"/>
+  <text x="392" y="86" text-anchor="middle" fill="#1e120b" font-family="Helvetica, sans-serif" font-size="7" font-weight="bold">24K signups</text>
+
+  <rect x="362" y="94" width="60" height="14" rx="2" fill="#e8a849" opacity="0.5"/>
+  <text x="392" y="104" text-anchor="middle" fill="#1e120b" font-family="Helvetica, sans-serif" font-size="7" font-weight="bold">8K active</text>
+
+  <rect x="372" y="112" width="40" height="14" rx="2" fill="#e8a849" opacity="0.35"/>
+  <text x="392" y="122" text-anchor="middle" fill="#1e120b" font-family="Helvetica, sans-serif" font-size="7" font-weight="bold">3.2K paid</text>
+
+  <!-- Conversion arrows -->
+  <text x="450" y="73" fill="#5ba37a" font-family="Menlo, monospace" font-size="7">24%</text>
+  <text x="450" y="91" fill="#5ba37a" font-family="Menlo, monospace" font-size="7">33%</text>
+  <text x="450" y="109" fill="#d4553a" font-family="Menlo, monospace" font-size="7">40%</text>
+
+  <!-- Mini filter -->
+  <rect x="336" y="134" width="112" height="12" rx="2" fill="#1e120b" stroke="#3a2518" stroke-width="0.3"/>
+  <text x="392" y="143" text-anchor="middle" fill="#7a6050" font-family="Helvetica, sans-serif" font-size="6">Last 30 days</text>
+
+  <text x="392" y="156" text-anchor="middle" fill="#c9a87a" font-family="Helvetica, sans-serif" font-size="8" font-weight="bold">Conversion Funnel</text>
+
+  <!-- Bottom section: template info -->
+  <rect x="16" y="170" width="448" height="118" rx="6" fill="#261710" filter="url(#sh3)"/>
+  <rect x="16" y="170" width="448" height="118" rx="6" fill="none" stroke="#3a2518" stroke-width="0.5"/>
+
+  <text x="36" y="190" fill="#c9a87a" font-family="Georgia, serif" font-size="11" font-weight="bold">KPI Overview</text>
+  <rect x="136" y="180" width="36" height="14" rx="7" fill="#5ba37a" opacity="0.2"/>
+  <text x="154" y="190" text-anchor="middle" fill="#5ba37a" font-family="Helvetica, sans-serif" font-size="7" font-weight="bold">Popular</text>
+
+  <text x="36" y="210" fill="#a08a70" font-family="Helvetica, sans-serif" font-size="9">Starter layout with KPI cards, trend chart, and filter bar.</text>
+  <text x="36" y="224" fill="#a08a70" font-family="Helvetica, sans-serif" font-size="9">Pre-configured with brand theme, semantic metrics, and mobile-responsive grid.</text>
+
+  <!-- Structure preview -->
+  <text x="36" y="246" fill="#7a6050" font-family="Menlo, monospace" font-size="8">Structure:</text>
+  <rect x="100" y="238" width="54" height="14" rx="3" fill="#1e120b" stroke="#e8a849" stroke-width="0.5"/>
+  <text x="127" y="248" text-anchor="middle" fill="#e8a849" font-family="Menlo, monospace" font-size="7">KPI Row</text>
+  <text x="160" y="248" fill="#5a4030" font-family="Menlo, monospace" font-size="8">→</text>
+  <rect x="172" y="238" width="54" height="14" rx="3" fill="#1e120b" stroke="#4a8bbf" stroke-width="0.5"/>
+  <text x="199" y="248" text-anchor="middle" fill="#4a8bbf" font-family="Menlo, monospace" font-size="7">Charts</text>
+  <text x="232" y="248" fill="#5a4030" font-family="Menlo, monospace" font-size="8">→</text>
+  <rect x="244" y="238" width="54" height="14" rx="3" fill="#1e120b" stroke="#5ba37a" stroke-width="0.5"/>
+  <text x="271" y="248" text-anchor="middle" fill="#5ba37a" font-family="Menlo, monospace" font-size="7">Filters</text>
+  <text x="304" y="248" fill="#5a4030" font-family="Menlo, monospace" font-size="8">→</text>
+  <rect x="316" y="238" width="54" height="14" rx="3" fill="#1e120b" stroke="#8b6bb5" stroke-width="0.5"/>
+  <text x="343" y="248" text-anchor="middle" fill="#8b6bb5" font-family="Menlo, monospace" font-size="7">Detail</text>
+
+  <!-- Use template button -->
+  <rect x="36" y="262" width="120" height="20" rx="4" fill="url(#kpiGrad)"/>
+  <text x="96" y="276" text-anchor="middle" fill="#1e120b" font-family="Helvetica, sans-serif" font-size="9" font-weight="bold">Use Template</text>
+
+  <!-- Stats -->
+  <text x="180" y="276" fill="#5a4030" font-family="Menlo, monospace" font-size="7">Used 47 times</text>
+  <text x="280" y="276" fill="#5a4030" font-family="Menlo, monospace" font-size="7">Last modified: 3d ago</text>
+  <text x="410" y="276" fill="#5a4030" font-family="Menlo, monospace" font-size="7">v2.3</text>
+</svg>
