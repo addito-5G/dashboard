@@ -1,36 +1,38 @@
-# Дашборд как продукт
+[Русский 🇷🇺](README_ru.md) / **English 🇺🇸**
 
-**Продукт:** интерактивная карта продуктового подхода к BI  
-**Роль:** Product Manager / Author  
-**Контекст:** 18 артефактов и 17 процессов с примерами для Power BI, Tableau, Looker
+# Dashboard as a Product
 
-**Результат:** BI как продукт — артефакты, процессы и зрелость, а не «нарисовать графики».
+**Product:** interactive map of a product approach to BI  
+**Role:** Product Manager / Author  
+**Context:** 18 artifacts and 17 processes with examples for Power BI, Tableau, Looker
 
-**Сайт:** [addito-5g.github.io/Dashbord-as-product](https://addito-5g.github.io/Dashbord-as-product/)
+**Result:** BI as a product — artifacts, processes, and maturity, not just «draw some charts».
 
-![Интерфейс проекта](dashboard.png)
+**Site:** [addito-5g.github.io/Dashbord-as-product](https://addito-5g.github.io/Dashbord-as-product/)
+
+![Project UI](dashboard.png)
 
 ---
 
-## Структура
+## Structure
 
 ```
-├── index.html           — React-приложение
-├── data-artifacts.js    — 18 артефактов (4 слоя)
-├── data-processes.js    — 17 процессов (6 фаз)
-└── assets/              — ~100 PNG
+├── index.html           — React app
+├── data-artifacts.js    — 18 artifacts (4 layers)
+├── data-processes.js    — 17 processes (6 phases)
+└── assets/              — ~100 PNGs
 ```
 
-## Запуск
+## Run locally
 
 ```bash
 python3 -m http.server 8080
 # → http://localhost:8080
 ```
 
-## Контрибьют
+## Contributing
 
-Тексты карточек — в `data-artifacts.js` и `data-processes.js`. Поля карточки:
+Card copy lives in `data-artifacts.js` and `data-processes.js`. Card fields:
 
 ```js
 {
@@ -44,6 +46,6 @@ python3 -m http.server 8080
 }
 ```
 
-Картинки: `assets/`, префиксы `a01-`…`a18-`, `p01-`…`p17-`. Рекомендуемая ширина — 1024px PNG.
+Images: `assets/`, prefixes `a01-`…`a18-`, `p01-`…`p17-`. Recommended width — 1024px PNG.
 
-> `index.html` — только при изменении логики отображения.
+> Edit `index.html` only when display logic changes.
